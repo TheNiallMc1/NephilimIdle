@@ -19,6 +19,11 @@ namespace UnlimitedBombs.Nephilim.UI.TextStyles
 
         public void OnEnable()
         {
+            if ( textComponent == null )
+            {
+                textComponent = this.GetComponent<TextMeshProUGUI>();
+            } 
+            
             if ( textStyle == null ) return;
             
             UpdateTextStyle();
