@@ -1,5 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40b166ff-73b0-4288-80d0-83bc360b8123" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Default.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Disabled.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Rollover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Rollover.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Button.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Button.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleTracker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleTracker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Button Text.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Button Text.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Header Text.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Header Text.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NephilimUnity.sln.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NephilimUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NephilimUnity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/DOTweenTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/UIStyles.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/HeaderTextStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/eTextStyles.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyleManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Editor/TextStyleTrackerEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Editor/TextStyleEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyles.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/HeaderStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyleTracker.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyle.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleTracker.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1q6wiNMvvH21yfgBRYqXnuojY8f" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -19,5 +119,44 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40b166ff-73b0-4288-80d0-83bc360b8123" name="Default Changelist" comment="" />
+      <created>1616413477157</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616413477157</updated>
+      <workItem from="1616413482389" duration="1201000" />
+      <workItem from="1616419583470" duration="7747000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1616424095583">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1616424095583" />
   </component>
 </project>
