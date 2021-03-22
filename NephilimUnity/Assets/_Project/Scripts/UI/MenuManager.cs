@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace UnlimitedBombs.Nephilim.UI
 {
@@ -25,11 +26,31 @@ namespace UnlimitedBombs.Nephilim.UI
     
         #endregion
 
-        public Menu currentMenu;
-        
+        [Header( "UI" )]
+        public Sprite currentMenuButtonSprite;
+        public Sprite inactiveMenuButtonSprite;
+
+        [Header("Menu")]
+        private Menu currentMenu;
+
+        public Menu settlementMenu;
+        public Menu worldMenu;
+        public Menu missionsMenu;
+        public Menu nephilimMenu;
+
+        public void Start()
+        {
+            OpenMenu( settlementMenu );
+        }
+
         public void OpenMenu(Menu menu)
         {
-            currentMenu.Deactivate();
+            if ( menu == currentMenu ) return;
+
+            if ( currentMenu != null )
+            {
+                currentMenu.Deactivate();
+            }
             
             menu.Activate();
             

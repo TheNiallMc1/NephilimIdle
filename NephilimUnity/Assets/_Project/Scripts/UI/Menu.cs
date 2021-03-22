@@ -1,10 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Security.Cryptography.X509Certificates;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace UnlimitedBombs.Nephilim.UI
 {
     public class Menu : MonoBehaviour
     {
-        public GameObject thisObject;
+        private GameObject thisObject;
+        [HideInInspector] public Button button;
         
         public void Start()
         {
@@ -13,12 +16,18 @@ namespace UnlimitedBombs.Nephilim.UI
         
         public void Activate()
         {
-            thisObject.SetActive( true );
+            this.gameObject.SetActive( true );
+            
+            button.enabled = false;
+            button.image.sprite = MenuManager.Instance.currentMenuButtonSprite;
         }
         
         public void Deactivate()
         {
-            thisObject.SetActive( false );
+            this.gameObject.SetActive( false );
+
+            button.enabled = true;
+            button.image.sprite = MenuManager.Instance.inactiveMenuButtonSprite;
         }
     }
 }
