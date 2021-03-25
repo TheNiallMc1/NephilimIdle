@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 namespace UnlimitedBombs.Nephilim.UI
@@ -30,17 +32,14 @@ namespace UnlimitedBombs.Nephilim.UI
         public Sprite currentMenuButtonSprite;
         public Sprite inactiveMenuButtonSprite;
 
-        [Header("Menu")]
+        [Header("Menus")]
         private Menu currentMenu;
 
-        public Menu settlementMenu;
-        public Menu worldMenu;
-        public Menu missionsMenu;
-        public Menu nephilimMenu;
+        public Menu initialMenu;
 
         public void Start()
         {
-            OpenMenu( settlementMenu );
+            OpenMenu( initialMenu );
         }
 
         public void OpenMenu(Menu menu)

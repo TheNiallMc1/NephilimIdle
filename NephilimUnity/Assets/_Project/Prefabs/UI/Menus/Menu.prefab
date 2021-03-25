@@ -101,6 +101,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7d31eeffbb3e914897f27cfcdce0662, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  menuName: Nephilim
+  menuId: 0
+  menuTitleDisplay: {fileID: 6459109019717922091}
+  button: {fileID: 0}
 --- !u!1 &6459109019717922089
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,10 +138,10 @@ RectTransform:
   m_Father: {fileID: 6459109019268664287}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.92200005}
-  m_AnchorMax: {x: 1, y: 0.966}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 6}
+  m_AnchorMin: {x: 0, y: 0.93600005}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.47799683}
+  m_SizeDelta: {x: 0, y: 2.3215332}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6459109019717922090
 CanvasRenderer:
@@ -167,7 +171,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Settlements
+  m_text: Nephilim
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -202,7 +206,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0

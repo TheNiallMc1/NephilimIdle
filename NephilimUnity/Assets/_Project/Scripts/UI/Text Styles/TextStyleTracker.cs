@@ -1,10 +1,10 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 namespace UnlimitedBombs.Nephilim.UI.TextStyles
 {
     [ExecuteAlways]
+    [RequireComponent(typeof(TextMeshProUGUI))]
     public class TextStyleTracker : MonoBehaviour
     {
         public TextStyle textStyle;
@@ -15,6 +15,13 @@ namespace UnlimitedBombs.Nephilim.UI.TextStyles
         public void Start()
         {
             UpdateTextStyle();
+            UpdateKeysInText();
+        }
+
+        public void OnValidate()
+        {
+            UpdateTextStyle();
+            UpdateKeysInText();
         }
 
         public void OnEnable()
@@ -40,11 +47,6 @@ namespace UnlimitedBombs.Nephilim.UI.TextStyles
             subscribedToRefresh = false;
         }
 
-        public void OnValidate()
-        {
-            UpdateTextStyle();
-        }
-
         private void UpdateTextStyle()
         {
             if ( textStyle == null ) return;
@@ -58,6 +60,11 @@ namespace UnlimitedBombs.Nephilim.UI.TextStyles
             textComponent.font = textStyle.font;
             textComponent.color = textStyle.colour;
             textComponent.fontSize = textStyle.size;
+        }
+        
+        private void UpdateKeysInText()
+        {
+            string content = textComponent.text;
         }
     }
 }
