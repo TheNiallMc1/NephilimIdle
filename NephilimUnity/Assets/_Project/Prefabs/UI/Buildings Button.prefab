@@ -66,7 +66,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: x1640
+  m_text: x164
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29
-  m_fontSizeBase: 29
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -163,7 +163,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameDisplay: {fileID: 3225885386301243812}
   countDisplay: {fileID: 78874823}
-  building: {fileID: 0}
 --- !u!1001 &7270350567999429817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -177,11 +176,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 4a2896d2d1b15634daa2119f3999c412, type: 2}
     - target: {fileID: 5197678405066579228, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -123.7
+      value: -49.97
       objectReference: {fileID: 0}
     - target: {fileID: 5197678405066579228, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 272.16205
+      value: 419.62158
       objectReference: {fileID: 0}
     - target: {fileID: 5197678405066579228, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -215,19 +214,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5197678405066579229, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_fontSize
-      value: 40
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 5197678405066579229, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_fontSizeBase
-      value: 40
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 5197678405066579229, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_margin.x
-      value: 11.334534
+      value: 21.6502
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197678405066579229, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5197678405066579231, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_Name
       value: Building Name
+      objectReference: {fileID: 0}
+    - target: {fileID: 5197678405192601696, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
+      propertyPath: m_PixelsPerUnitMultiplier
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5197678405192601698, guid: 8e8d4e8e811858542bd7c2c6f562d7bd, type: 3}
       propertyPath: m_LocalPosition.x

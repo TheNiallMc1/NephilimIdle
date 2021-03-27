@@ -2,7 +2,7 @@
 using TMPro;
 using UnityEngine;
 
-namespace UnlimitedBombs.Nephilim.UI
+namespace UnlimitedBombs.Nephilim.UI.Menus
 {
     public class Menu : MonoBehaviour
     {

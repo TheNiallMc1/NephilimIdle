@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace UnlimitedBombs.Nephilim.UI
+namespace UnlimitedBombs.Nephilim.UI.Menus
 {
     public class MenuManager : MonoBehaviour
     {

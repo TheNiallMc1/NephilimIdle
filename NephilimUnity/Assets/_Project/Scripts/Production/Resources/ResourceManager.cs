@@ -2,8 +2,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
+using UnlimitedBombs.Nephilim.ResourceGain.UI;
 
-namespace UnlimitedBombs.Nephilim.Production
+namespace UnlimitedBombs.Nephilim.ResourceGain
 {
     public class ResourceManager : MonoBehaviour
     {
@@ -28,6 +29,7 @@ namespace UnlimitedBombs.Nephilim.Production
     
         #endregion
 
+        public ResourceDisplay resourceDisplay;
         public List<Resource> allResources = new List<Resource>();
 
         public void GainResources( IEnumerable<Resource> resources )
@@ -43,11 +45,14 @@ namespace UnlimitedBombs.Nephilim.Production
                 if ( !resourceEntry.Any() )
                 {
                     allResources.Add( r );
+                    resourceDisplay.NewResourceField( r );
                 }
                 
                 else
                 {
+                    Resource resource = resourceEntry.First();
                     resourceEntry.First().resourceAmount += r.resourceAmount;
+                    resourceDisplay.UpdateResourceField( resource );
                 }
             }
         }
@@ -64,25 +69,27 @@ namespace UnlimitedBombs.Nephilim.Production
 
                 if ( !resourceEntry.Any() ) return;
 
-                float resourceAmount = resourceEntry.First().resourceAmount;
+                Resource resource = resourceEntry.First();
+                
+                float resourceAmount = resource.resourceAmount;
                 
                 float newAmount = Mathf.Max(0, resourceAmount - r.resourceAmount );
 
-                resourceEntry.First().resourceAmount = newAmount;
+                resource.resourceAmount = newAmount;
+                
+                resourceDisplay.UpdateResourceField( resource );
             }
         }
 
-        public bool CanAfford( IEnumerable<Resource> resources )
+        public bool CanAfford( IEnumerable<Resource> resourceCosts )
         {
-            bool[] resourceState = new bool[resources.Count()]; 
+            bool[] resourceState = new bool[resourceCosts.Count()]; 
             // Making an bool array to track the index of the resources, used to display which resources the player is low on
             
             int iterator = 0;
             
-            foreach ( Resource r in resources )
+            foreach ( Resource r in resourceCosts )
             {
-                iterator++;
-                
                 // Find a matching resource in the resource list
                 IEnumerable<Resource> resourceEntry = 
                     allResources.Where( x => x.resourceName == r.resourceName );
@@ -91,21 +98,25 @@ namespace UnlimitedBombs.Nephilim.Production
                 if ( !resourceEntry.Any() )
                 {
                     resourceState[iterator] = false;
+                    iterator++;
                     continue;
                 }
                 
                 float resourceAmount = resourceEntry.First().resourceAmount;
-
-                if ( resourceAmount < r.resourceAmount )
+                float requiredAmount = r.resourceAmount;
+                
+                if ( resourceAmount < requiredAmount )
                 {
                     resourceState[iterator] = false;
+                    iterator++;
                     continue;
                 }
                 
                 // The player has enough of a resource
-                if ( resourceAmount >= r.resourceAmount )
+                if ( resourceAmount >= requiredAmount )
                 {
                     resourceState[iterator] = true;
+                    iterator++;
                     continue;
                 }
             }

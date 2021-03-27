@@ -1,14 +1,14 @@
-namespace UnlimitedBombs.Nephilim.Production
+namespace UnlimitedBombs.Nephilim.ResourceGain
 {
     public class Wheat : Resource
     {
         public Wheat( float amount )
         {
             resourceName = this.GetType().Name;
-            resourceAmount = amount;    
+            resourceAmount = amount;
         }
     }
-    
+
     public class Wood : Resource
     {
         public Wood( float amount )
@@ -17,10 +17,19 @@ namespace UnlimitedBombs.Nephilim.Production
             resourceAmount = amount;
         }
     }
-    
+
     public class Stone : Resource
     {
         public Stone( float amount )
+        {
+            resourceName = this.GetType().Name;
+            resourceAmount = amount;
+        }
+    }
+
+    public class Iron : Resource
+    {
+        public Iron( float amount )
         {
             resourceName = this.GetType().Name;
             resourceAmount = amount;

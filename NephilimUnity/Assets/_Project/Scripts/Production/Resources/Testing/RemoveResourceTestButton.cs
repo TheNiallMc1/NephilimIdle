@@ -1,9 +1,7 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using UnlimitedBombs.Nephilim.Production;
 
-namespace UnlimitedBombs.Nephilim.UI
+namespace UnlimitedBombs.Nephilim.ResourceGain.UI
 {
     public class RemoveResourceTestButton : MonoBehaviour
     {

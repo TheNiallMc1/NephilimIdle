@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
+
+using UnlimitedBombs.Nephilim.ResourceGain;
+
 // ReSharper disable Unity.IncorrectMonoBehaviourInstantiation
 
-namespace UnlimitedBombs.Nephilim.Production
+namespace UnlimitedBombs.Nephilim.Buildings.Testing
 {
     public class CreateButtonTest : MonoBehaviour
     {

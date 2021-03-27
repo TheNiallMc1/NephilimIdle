@@ -23,64 +23,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b166ff-73b0-4288-80d0-83bc360b8123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Area Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Area Background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Isometric World Map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Isometric World Map.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Buildings Button.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Buildings Button.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/World Menu.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/World Menu.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/Mine.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/Mine.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/WheatField.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/WheatField.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButtonList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButtonList.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Wheat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Wheat.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/AddResourceTestButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/AddResourceTestButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/RemoveResourceTestButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/RemoveResourceTestButton.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Text.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Menu Subheading.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Building.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Building.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource Display Field.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource Display Field.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource List.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource List.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/BuildingsList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButtonList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/IBuilding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Testing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplay.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplayField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplayField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Resource Title.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Resource Title.asset.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NephilimUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NephilimUnity/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Default.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Default.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Rollover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Rollover.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Buildings Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Buildings Button.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/Menu.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menu.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/Menu.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Top Nav.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Top Nav.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/Menu.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Feature Testing/Testing Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Feature Testing/Testing Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/OpenMenuButton.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/OpenMenuButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleTracker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleTracker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Nav Header Text.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Menu Subheading.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Nav Header Text.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Count Text.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Value Display Text.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Count Text.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Value Display Text.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Text.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/Mine.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/Mine.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/WheatField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/WheatField.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/BuildingsList.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButtonList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButtonList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButtonList.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Testing/CreateButtonTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Testing/CreateButtonTest.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/IBuilding.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Wheat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Wheat.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceList.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/AddResourceTestButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/AddResourceTestButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/AddResourceTestButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/AddResourceTestButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/Menu.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/RemoveResourceTestButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/RemoveResourceTestButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/RemoveResourceTestButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/RemoveResourceTestButton.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Count Text.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Count Text.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Text.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Text.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,45 +105,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/AddResourceTestButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/d3/877814ed/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/DOTweenTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/UIStyles.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/HeaderTextStyle.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/eTextStyles.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyleManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Editor/TextStyleTrackerEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Editor/TextStyleEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyles.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/HeaderStyle.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyleTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextStyle.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyle.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/eMenus.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/OpenMenuButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Editor/MenuOrderChange.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuTracking.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuScriptableTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/CSVLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/textValues.csv" />
-        <option value="$PROJECT_DIR$/Assets/Resources/menuNames.json" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/TextReplacer.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/BuildingInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/IBuilding.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/asd.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/Resource.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/WheatField.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleTracker.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/Wood.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/Wheat.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/Building Classes/Mine.cs" />
@@ -148,17 +127,43 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/Building Classes/WheatField.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/Building.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/AddResourceTestButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/RemoveResourceTestButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/WheatField.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Wheat.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/ResourceDisplayField.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/ResourceDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceDisplayField.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButtonList.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Testing/CreateButtonTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceDisplayField.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resources.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Testing/AddResourceTestButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Testing/RemoveResourceTestButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceList.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButtonList.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/IBuilding.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/Mine.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/WheatField.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/BuildingsList.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs" />
       </list>
     </option>
   </component>
@@ -183,7 +188,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="RiderCSharpFileTemplatesSettingsId" />
+    <property name="settings.editor.selected.configurable" value="RiderCSharpLiveTemplatesSettingsId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -223,7 +228,8 @@
       <option name="presentableId" value="Default" />
       <updated>1616413477157</updated>
       <workItem from="1616413482389" duration="1201000" />
-      <workItem from="1616419583470" duration="68488000" />
+      <workItem from="1616419583470" duration="74179000" />
+      <workItem from="1616778555892" duration="15541000" />
     </task>
     <servers />
   </component>
@@ -248,18 +254,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="191" y="167" key="#Live_Templates" timestamp="1616780655855">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="191" y="167" key="#Live_Templates/0.0.1920.1080@0.0.1920.1080" timestamp="1616780655855" />
+    <state x="649" y="401" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1616780822081">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="649" y="401" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1616780822081" />
     <state x="357" y="181" width="1254" height="682" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1616602541493">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="357" y="181" width="1254" height="682" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1616602541493" />
-    <state x="794" y="241" key="RiderGenerateDialog" timestamp="1616579609358">
+    <state x="794" y="241" key="RiderGenerateDialog" timestamp="1616796574209">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="794" y="241" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1616579609358" />
-    <state x="272" y="206" width="1322" height="811" key="SettingsEditor" timestamp="1616598819486">
+    <state x="794" y="241" key="RiderGenerateDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1616796574209" />
+    <state x="272" y="127" width="1322" height="890" key="SettingsEditor" timestamp="1616781005128">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="272" y="206" width="1322" height="811" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1616598819486" />
+    <state x="272" y="127" width="1322" height="890" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1616781005128" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1616531150285">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -268,9 +282,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="608" y="215" width="909" height="614" key="save.file.as.template.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1616587673857" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1616598738111">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1616796565954">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1616598738111" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1616796565954" />
   </component>
 </project>

@@ -1,8 +1,10 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnlimitedBombs.Nephilim.ResourceGain;
 
-namespace UnlimitedBombs.Nephilim.Production
+namespace UnlimitedBombs.Nephilim.Buildings
 {
     public class BuildingButton : MonoBehaviour
     {

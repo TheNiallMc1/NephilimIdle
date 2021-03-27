@@ -1,9 +1,7 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace UnlimitedBombs.Nephilim.Production
+namespace UnlimitedBombs.Nephilim.ResourceGain
 {
-    [Serializable]
     public class Resource
     {
         public string resourceName = "Base Resource";

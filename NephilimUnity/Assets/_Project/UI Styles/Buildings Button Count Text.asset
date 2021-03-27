@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   colour: {r: 1, g: 1, b: 1, a: 1}
-  size: 29
+  size: 36
