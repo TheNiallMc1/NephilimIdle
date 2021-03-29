@@ -23,70 +23,407 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40b166ff-73b0-4288-80d0-83bc360b8123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Building.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/Building.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource Display Field.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource Display Field.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource List.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Resource List.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/BuildingsList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButtonList.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/IBuilding.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Testing.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplay.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplayField.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplayField.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Resource Title.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Resource Title.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tiled-settings-icon-0x1badd00d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tiled-settings-icon-0x1badd00d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tmx-file-icon-0x1badd00d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tmx-file-icon-0x1badd00d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tsx-file-icon-0x1badd00d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tsx-file-icon-0x1badd00d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tx-file-icon-0x1badd00d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/tx-file-icon-0x1badd00d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/world-file-icon-0x1badd00d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Icons/world-file-icon-0x1badd00d.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/CollisionObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/CollisionObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/CollisionShapeType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/CollisionShapeType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/CustomProperty.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/CustomProperty.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AnimationBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AnimationBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetDatabaseEx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetDatabaseEx.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetPath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetPath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAsset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAsset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetMap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetSettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetSettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTemplate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTemplate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTileset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetTileset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetWorld.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AssetTypes/SuperAssetWorld.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AtlasBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AtlasBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AtlasSize.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/AtlasSize.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Attributes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Attributes/AutoCustomTmxImporterAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Attributes/AutoCustomTmxImporterAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionBuilder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionClipper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionClipper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionClipperKey.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/CollisionClipperKey.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/ComposeConvexPolygons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/ComposeConvexPolygons.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/CompositionPolygon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/CompositionPolygon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Math.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Math.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdge.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdge.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdgeGroup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolygonEdgeGroup.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolylineReduction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/PolylineReduction.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Triangulator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/Geometry/Triangulator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygonCollection.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Collision/TilePolygonCollection.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Config/ST2U Settings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Config/ST2U Settings.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Config/SuperTiled2Unity_Config.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Config/SuperTiled2Unity_Config.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomEditors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomEditors/ColliderGizmos.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomEditors/ColliderGizmos.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomEditors/SuperColliderComponentEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomEditors/SuperColliderComponentEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomImporters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomImporters/CustomTmxImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/CustomImporters/CustomTmxImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/DataCompression.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/DataCompression.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/DataEncoding.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/DataEncoding.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/DrawOrder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/DrawOrder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Exceptions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/CustomImporterException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/CustomImporterException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/TiledException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Exceptions/TiledException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/AppDomainExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/AppDomainExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/ByteExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/ByteExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CollisionObjectExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CollisionObjectExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CompositeCollider2DExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CompositeCollider2DExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CustomPropertyExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/CustomPropertyExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/GameObjectExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/GameObjectExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/RectUtil.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/RectUtil.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/StreamExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/StreamExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/StringExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/StringExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperLayerExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperLayerExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperMapExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperMapExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperTileExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/SuperTileExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/Texture2DExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/Texture2DExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/TypeExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/TypeExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/XmlExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Extensions/XmlExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/GUI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedBackgroundColor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedBackgroundColor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedIndent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/GUI/GuiScopedIndent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/GlobalTileDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/GlobalTileDatabase.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/ChDir.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/ChDir.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/NamedColors.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/NamedColors.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/ReadOnlyPropertyDrawer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/ReadOnlyPropertyDrawer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/UniqueNameifier.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Helpers/UniqueNameifier.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/ImporterConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/ImporterConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/LayerSorterHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/LayerSorterHelper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/RendererSorter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/RendererSorter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImportContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImportContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/SuperImporterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TiledAssetImporterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.GroupLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.GroupLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.ImageLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.ImageLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.ObjectLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.ObjectLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.TileLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.TileLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TmxAssetImporterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TsxAssetImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TsxAssetImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TsxAssetImporterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TsxAssetImporterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/TxAssetImporterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Importers/WorldAssetImporterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/LayerIgnoreMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/LayerIgnoreMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/CustomPropertyLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/CustomPropertyLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperGroupLayerLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperGroupLayerLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperImageLayerLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperImageLayerLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperLayerLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperLayerLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperObjectLayerLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperObjectLayerLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperTileLayerLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/SuperTileLayerLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/TilesetLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Loaders/TilesetLoader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryIsometric.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryIsometric.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryOrthogonal.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/ColliderFactoryOrthogonal.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/PolygonUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Math/PolygonUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ObjectTemplate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ObjectTemplate.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/AssetDependencies.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/AssetDependencies.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperAssetDependencyPostprocessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperAssetDependencyPostprocessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperTexturePostprocessor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/SuperTexturePostprocessor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/TiledAssetDependencies.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Postprocessors/TiledAssetDependencies.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Properties.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Properties/CustomObjectType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Properties/CustomObjectType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/CustomPropertiesWindow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/CustomPropertiesWindow.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/LayerMaterialMatch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/LayerMaterialMatch.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsProvider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/ST2USettingsProvider.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperIcons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperIcons.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporterEditor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/SuperSettingsImporterEditor.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/TypePrefabReplacement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Settings/TypePrefabReplacement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/SortingMode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/SortingMode.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/StringConstants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/StringConstants.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/SuperTiled2UnityEditor.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/SuperTiled2UnityEditor.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/SuperTileset.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/SuperTileset.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/ImageHeader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/ImageHeader.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Dict.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Dict.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Geom.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Geom.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Mesh.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Mesh.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/MeshUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/MeshUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/PriorityHeap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/PriorityHeap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/PriorityQueue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/PriorityQueue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Sweep.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Sweep.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Tess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/LibTessDotNet/Tess.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MaxRectsBinPack.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MaxRectsBinPack.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MultiValueDictionary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/MultiValueDictionary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/clipper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/ThirdParty/clipper.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/TileIdMath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/TileIdMath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Windows.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Windows/RecursiveAssetDependencyTracker.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Windows/RecursiveAssetDependencyTracker.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Windows/SuperPackageExport.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Editor/Windows/SuperPackageExport.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/CustomPropertyExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/CustomPropertyExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/EnumerableExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/EnumerableExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/GameObjectExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/GameObjectExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/StringExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/StringExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/SuperTileExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Extensions/SuperTileExtensions.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/FlipFlags.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/FlipFlags.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/GridOrientation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/GridOrientation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/MapOrientation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/MapOrientation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/MapRenderOrder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/MapRenderOrder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Math.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Math/MatrixUtils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/Math/MatrixUtils.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/ObjectAlignment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/ObjectAlignment.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/ReadOnlyAttribute.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/ReadOnlyAttribute.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/StaggerAxis.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/StaggerAxis.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/StaggerIndex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/StaggerIndex.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperColliderComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperColliderComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperCustomProperties.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperCustomProperties.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperGroupLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperGroupLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperImageLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperImageLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperMap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperObjectLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperObjectLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperTile.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperTileLayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperTileLayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperTilesAsObjectsTilemap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperTilesAsObjectsTilemap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperWorld.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperWorld.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/TileObjectAnimator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/TileObjectAnimator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SuperTiled2Unity/SuperTiled2Unity.asmdef.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Building Render Material.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Building Render Material.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Building Render Texture.renderTexture" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Building Render Texture.renderTexture.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Buildings Tileset.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Buildings Tileset.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Isometric 32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Isometric 32x32.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Isometric.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Isometric.tmx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/IsometricTestMap.tmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/IsometricTestMap.tmx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Nephilim 32x32.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Nephilim 32x32.tsx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Forest.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Forest.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Forest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Forest.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mine.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mine.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mine.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mountains.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mountains.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mountains.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Mountains.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Plains.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Plains.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Plains.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Plains.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Sawmill.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Sawmill.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Sawmill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Sawmill.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Water.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Water.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/Water.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/WheatField.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/WheatField.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/WheatField.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Buildings/Tile Maps/Tiles/WheatField.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Tile Maps.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Tile Maps/Mountain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Tile Maps/Mountain.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/BuildingGrid.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/BuildingGrid.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/Plains.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/Plains.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/TerrainTile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/TerrainTile.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NephilimUnity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NephilimUnity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Default.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Default.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Rollover.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Button Rollover.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Buildings Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Buildings Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Button.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Button.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/Menu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Prefabs/UI/Menus/Menu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Isometric World Map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Art Assets/Sprites/Isometric World Map.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/Feature Testing/Testing Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/Feature Testing/Testing Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/Mine.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/Mine.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/WheatField.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building Classes/WheatField.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/BuildingsList.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Building.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButtonList.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingButtonList.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingButtonList.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/BuildingManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Testing/CreateButtonTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/CreateButtonTest.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Testing/CreateButtonTest.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/IBuilding.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/IBuilding.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/ResourceManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Resource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Wheat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceList.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Wheat.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/ResourceList.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/AddResourceTestButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/AddResourceTestButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/AddResourceTestButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/AddResourceTestButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menu.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/Menu.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/MenuManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Menus/MenuManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/RemoveResourceTestButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/RemoveResourceTestButton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scripts/UI/RemoveResourceTestButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/Testing/RemoveResourceTestButton.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Count Text.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Count Text.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Text.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/UI Styles/Buildings Button Text.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +446,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/Resources/UI/ResourceDisplay.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/d3/877814ed/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SuperTiled2Unity/Scripts/SuperCustomProperties.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/BuildingGrid.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/asd.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/Resource.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/WheatField.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/UI/Text Styles/TextStyleTracker.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/Wood.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Resources/Wheat.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Buildings/Building Classes/Mine.cs" />
@@ -164,6 +499,10 @@
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Building Classes/BuildingsList.cs" />
         <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/BuildingObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/BuildingPlacer.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/BuildingCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/TerrainTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Project/Scripts/Production/Buildings/Placement/BuildingGrid.cs" />
       </list>
     </option>
   </component>
@@ -229,7 +568,8 @@
       <updated>1616413477157</updated>
       <workItem from="1616413482389" duration="1201000" />
       <workItem from="1616419583470" duration="74179000" />
-      <workItem from="1616778555892" duration="15541000" />
+      <workItem from="1616778555892" duration="15755000" />
+      <workItem from="1616858680441" duration="12336000" />
     </task>
     <servers />
   </component>
